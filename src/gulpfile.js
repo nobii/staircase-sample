@@ -35,7 +35,7 @@ var DEST_JS = path.join(DEST, 'js');
 var DEST_JS_LIB = path.join(DEST_JS, 'lib');
 var DEST_HTML = DEST;
 
-var HTTP_PATH = '/';
+var HTTP_PATH = './';
 
 
 var onError = function (err) {
