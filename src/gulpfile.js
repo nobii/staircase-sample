@@ -28,7 +28,7 @@ var GLOB_JS = path.join(SRC_JS, '**/*.js');
 var GLOB_JADE = path.join(SRC_JADE, '**/*.jade');
 var GLOB_DATA = path.join(SRC_DATA, '*');
 
-var DEST = '../public';
+var DEST = '../demo';
 var DEST_IMG = path.join(DEST, 'img');
 var DEST_CSS = path.join(DEST, 'css');
 var DEST_JS = path.join(DEST, 'js');
