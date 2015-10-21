@@ -1,0 +1,12 @@
+extends layout/DefaultLayout
+
+prepend ConfigBlock
+  - page_name = 'camera preview demo'
+
+// append StylesheetBlock
+
+block JavascriptBlock
+  script(src="js/cameraPreviewDemo.js")
+
+block ContentBlock
+  video#Video.camera-preview

@@ -56,12 +56,10 @@ html(lang="ja")
     != SNSHelper.line_button_script()
 
     section.wrapper
-      header
-        h1= title
-        h2= description
-      block ContentBlock
-      footer
-        include ../partial/share
+      .header
+        = site_name
+      .content
+        block ContentBlock
 
     // javascript
     block JavascriptBlock

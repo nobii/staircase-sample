@@ -76,7 +76,7 @@ gulp.task('copy-lib', function () {
 
 gulp.task('compile-js', function () {
 
-    gulp.src(SRC_JS + '/staircaseSample.js')
+    gulp.src(SRC_JS + '/*.js')
         .pipe(varline({
             wrap: true,
             loadPath: [
