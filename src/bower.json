@@ -1,0 +1,9 @@
+{
+  "name": "staircase-sample",
+  "version": "0.1.0",
+  "main": "index.html",
+  "dependencies": {
+    "html5shiv": "~3.7.2",
+    "jquery": "~1.10.*"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "staircase-sample",
+  "description": "staircase sample.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nobii/staircase-sample.git"
+  },
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "scripts": {
+    "start": "gulp server",
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "varline": "1.1.*",
+    "gulp": "3.*",
+    "vinyl-source-stream": "1.1.0",
+    "gulp-ruby-sass": "1.0.0",
+    "gulp-jade": "1.*",
+    "js-yaml": "3.*",
+    "koko": "0.*",
+    "gulp-awspublish": "2.0.0",
+    "gulp-rename": "1.2.2"
+  }
+}
