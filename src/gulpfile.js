@@ -85,7 +85,8 @@ gulp.task('compile-js', function () {
             ],
             alias: {
                 $: 'jquery',
-                _: 'underscore'
+                _: 'underscore',
+                EventEmitter2: 'eventemitter2'
             }
         }))
         .on('error', onError)
